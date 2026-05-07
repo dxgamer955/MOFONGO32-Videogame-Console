@@ -100,7 +100,7 @@ These tools live in `tools/` and use the project virtual environment.
 From the project root:
 
 ```
-cd C:\Users\dxgam\OneDrive\Desktop\MICRO_FINAL_PROJ\PAL_COOMPOS_AUDIO\AudioVideoExample
+cd C:\Users\YourUser\Desktop\MofongoEngine
 .\.venv\Scripts\activate
 ```
 
