@@ -2,6 +2,10 @@
 
 This guide explains how to flash the **Logic ESP32**, **Video ESP32**, and **SPIFFS** for the dual‑ESP setup.
 
+This Project uses the following Repositories
+- **https://github.com/bitluni/ESP32CompositeVideo
+- **https://github.com/marciot/ESP32CompositeColorVideo
+
 ## Quick Summary
 
 - **Logic ESP32** (master): runs MASA runtime + Bluetooth input.
