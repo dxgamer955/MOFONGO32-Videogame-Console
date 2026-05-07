@@ -1,0 +1,8 @@
+// obj_big_rock
+// MASA_VEL_RANDOM: -1.2, 1.2
+// MASA_WRAP: 0,319,0,199
+// MASA_HITBOX: 14,14
+// MASA_BOUNCE: 1
+// MASA_ROT_SPEED: 0
+// MASA_ROTATE: 0
+// MASA_SCALE: 1.0, 0.0, 0.0

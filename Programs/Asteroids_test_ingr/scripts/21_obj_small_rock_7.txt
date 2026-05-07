@@ -1,0 +1,5 @@
+﻿// obj_small_rock
+// MASA_VEL_RANDOM: -1.2, 1.2
+// MASA_WRAP: 0,319,0,199
+// MASA_HITBOX: 8,8
+// MASA_BOUNCE: 1

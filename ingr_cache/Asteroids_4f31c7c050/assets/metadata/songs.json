@@ -1,0 +1,45 @@
+{
+  "type": "songs_atlas_v1",
+  "settings": {
+    "channel": 0,
+    "row_ms": null,
+    "ft_timing": true,
+    "mix_4ch": true,
+    "mix_channels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "export_4ch": true,
+    "channels_4ch": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "hold_empty": false,
+    "bpm": 150.0,
+    "rows_per_beat": 4.0
+  },
+  "songs": [
+    {
+      "name": "manny",
+      "source": "MANNY.txt",
+      "input": "../tools/MANNY.txt",
+      "row_ms": 83
+    },
+    {
+      "name": "stars",
+      "source": "stars.txt",
+      "input": "../tools/stars.txt",
+      "row_ms": 83
+    },
+    {
+      "name": "megaman",
+      "source": "megaman.txt",
+      "input": "../tools/megaman.txt",
+      "row_ms": 50
+    }
+  ]
+}

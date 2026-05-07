@@ -1,0 +1,51 @@
+[
+  {
+    "name": "rm_quiz",
+    "width": 320,
+    "height": 200,
+    "background_index": 3,
+    "background_color": 0,
+    "song": "manny",
+    "objects": [
+      {
+        "name": "obj_quiz_controller",
+        "x": 246,
+        "y": 175,
+        "draw_mode": "normal",
+        "start_state": "idle",
+        "idle_frames": "0",
+        "walk_frames": "",
+        "run_frames": "",
+        "jump_frames": "",
+        "idle_fps": 8,
+        "walk_fps": 8,
+        "run_fps": 10,
+        "jump_fps": 8,
+        "angle": 0.0,
+        "scale": 1.0,
+        "persistent": false,
+        "script_update": "// Original-style quiz controller, expanded to 7 questions.\r\n// MASA_HUD_SET: 3, 0, 0\r\n// MASA_HUD: 4, 184, white, left, none, 0, 0, \"Score:{SCORE}/700\"\r\n// MASA_SHOW_TEXT: 0, 18, 12, cyan, \"MICROCONTROLLERS QUIZ\"\r\n// MASA_SHOW_TEXT: 1, 18, 38, white, \"ADC reads?\"\r\n// MASA_SHOW_TEXT: 2, 18, 60, yellow, \"UP/DOWN, A=answer\"\r\n// MASA_CHOICES: 0, 58, 84, lightgray, 0, \"Analog|PWM\"\r\n\r\n// MASA_ON_SIGNAL_HUD_ADD: 0, 0, 100, 0\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 0, 1, 18, 38, white, \"GPIO means?\"\r\n// MASA_ON_SIGNAL_CHOICES: 0, 0, 58, 84, lightgray, 2, \"Pin I/O|Memory\"\r\n\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 1, 1, 18, 38, white, \"GPIO means?\"\r\n// MASA_ON_SIGNAL_CHOICES: 1, 0, 58, 84, lightgray, 2, \"Pin I/O|Memory\"\r\n\r\n// MASA_ON_SIGNAL_HUD_ADD: 2, 0, 100, 0\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 2, 1, 18, 38, white, \"PWM controls?\"\r\n// MASA_ON_SIGNAL_CHOICES: 2, 0, 58, 84, lightgray, 4, \"Duty|Flash\"\r\n\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 3, 1, 18, 38, white, \"PWM controls?\"\r\n// MASA_ON_SIGNAL_CHOICES: 3, 0, 58, 84, lightgray, 4, \"Duty|Flash\"\r\n\r\n// MASA_ON_SIGNAL_HUD_ADD: 4, 0, 100, 0\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 4, 1, 18, 38, white, \"Arduino loop?\"\r\n// MASA_ON_SIGNAL_CHOICES: 4, 0, 58, 84, lightgray, 6, \"setup|loop\"\r\n\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 5, 1, 18, 38, white, \"Arduino loop?\"\r\n// MASA_ON_SIGNAL_CHOICES: 5, 0, 58, 84, lightgray, 6, \"setup|loop\"\r\n\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 6, 1, 18, 38, white, \"I2C lines?\"\r\n// MASA_ON_SIGNAL_CHOICES: 6, 0, 58, 84, lightgray, 8, \"SDA/SCL|TX/RX\"\r\n\r\n// MASA_ON_SIGNAL_HUD_ADD: 7, 0, 100, 0\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 7, 1, 18, 38, white, \"I2C lines?\"\r\n// MASA_ON_SIGNAL_CHOICES: 7, 0, 58, 84, lightgray, 8, \"SDA/SCL|TX/RX\"\r\n\r\n// MASA_ON_SIGNAL_HUD_ADD: 8, 0, 100, 0\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 8, 1, 18, 38, white, \"Serial uses?\"\r\n// MASA_ON_SIGNAL_CHOICES: 8, 0, 58, 84, lightgray, 10, \"TX/RX|A0/A1\"\r\n\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 9, 1, 18, 38, white, \"Serial uses?\"\r\n// MASA_ON_SIGNAL_CHOICES: 9, 0, 58, 84, lightgray, 10, \"TX/RX|A0/A1\"\r\n\r\n// MASA_ON_SIGNAL_HUD_ADD: 10, 0, 100, 0\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 10, 1, 18, 38, white, \"3.3V is?\"\r\n// MASA_ON_SIGNAL_CHOICES: 10, 0, 58, 84, lightgray, 12, \"Power|Ground\"\r\n\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 11, 1, 18, 38, white, \"3.3V is?\"\r\n// MASA_ON_SIGNAL_CHOICES: 11, 0, 58, 84, lightgray, 12, \"Power|Ground\"\r\n\r\n// MASA_ON_SIGNAL_HUD_ADD: 12, 0, 100, 0\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 12, 0, 62, 48, cyan, \"QUIZ COMPLETE\"\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 12, 1, 48, 72, white, \"FINAL:{SCORE}/700\"\r\n// MASA_ON_SIGNAL_CHOICES_CLEAR: 12, 0\r\n\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 13, 0, 62, 48, cyan, \"QUIZ COMPLETE\"\r\n// MASA_ON_SIGNAL_SHOW_TEXT: 13, 1, 48, 72, white, \"FINAL:{SCORE}/700\"\r\n// MASA_ON_SIGNAL_CHOICES_CLEAR: 13, 0"
+      },
+      {
+        "name": "obj_guy",
+        "x": 36,
+        "y": 151,
+        "draw_mode": "normal",
+        "start_state": "idle",
+        "idle_frames": "0",
+        "walk_frames": "",
+        "run_frames": "",
+        "jump_frames": "",
+        "idle_fps": 8,
+        "walk_fps": 8,
+        "run_fps": 10,
+        "jump_fps": 8,
+        "angle": 0.0,
+        "scale": 1.0,
+        "persistent": false,
+        "script_update": ""
+      }
+    ],
+    "tilemap_index": -1
+  }
+]

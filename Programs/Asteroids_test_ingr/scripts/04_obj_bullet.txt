@@ -1,0 +1,32 @@
+// MASA_SPRITE_INDEX: 28
+// MASA_NO_WRAP: 1
+
+// MASA_START_ALARM: 0, 800
+// IF_MASA_ALARM_RINGS: 0, 7
+// MASA_ON_SIGNAL_DESTROY: 7, self
+
+// Colisiones con rocas
+// MASA_HITBOX: 6, 6
+// MASA_COLLIDE: 0, obj_big_rock
+// MASA_COLLIDE: 1, obj_middle_rock
+// MASA_COLLIDE: 2, obj_small_rock
+
+// Big -> 2 middle
+// MASA_ON_SIGNAL_DESTROY: 0, self
+// MASA_ON_SIGNAL_DESTROY: 0, obj_big_rock
+// MASA_ON_SIGNAL_HUD_ADD: 0, 0, 20, 0
+// MASA_ON_SIGNAL_SPAWN: 0, obj_middle_rock, other_x, other_y, auto
+// MASA_ON_SIGNAL_SPAWN: 0, obj_middle_rock, other_x, other_y, auto
+
+// Middle -> 2 small
+// MASA_ON_SIGNAL_DESTROY: 1, self
+// MASA_ON_SIGNAL_DESTROY: 1, obj_middle_rock
+// MASA_ON_SIGNAL_HUD_ADD: 1, 0, 50, 0
+// MASA_ON_SIGNAL_SPAWN: 1, obj_small_rock, other_x, other_y, auto
+// MASA_ON_SIGNAL_SPAWN: 1, obj_small_rock, other_x, other_y, auto
+
+// Small -> explosion
+// MASA_ON_SIGNAL_DESTROY: 2, self
+// MASA_ON_SIGNAL_DESTROY: 2, obj_small_rock
+// MASA_ON_SIGNAL_HUD_ADD: 2, 0, 100, 0
+// MASA_ON_SIGNAL_SPAWN: 2, obj_explotion, other_x, other_y, auto

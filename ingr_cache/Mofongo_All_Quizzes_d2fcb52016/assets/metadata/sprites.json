@@ -1,0 +1,25 @@
+{
+  "type": "sprites_project_v1",
+  "pngs": [
+    "C:\\Users\\yabiv\\Documents\\AudioVideoExample\\Programs\\Mofongo_All_Quizzes_ingr\\assets\\sprites\\math_quiz_icon.png",
+    "C:\\Users\\yabiv\\Documents\\AudioVideoExample\\Programs\\Mofongo_All_Quizzes_ingr\\assets\\sprites\\science_quiz_icon.png",
+    "C:\\Users\\yabiv\\Documents\\AudioVideoExample\\Programs\\Mofongo_All_Quizzes_ingr\\assets\\sprites\\coding_quiz_icon.png",
+    "C:\\Users\\yabiv\\Documents\\AudioVideoExample\\Programs\\Mofongo_All_Quizzes_ingr\\assets\\sprites\\micro_quiz_icon.png"
+  ],
+  "out": "",
+  "name": "all_quiz_sprites",
+  "origin": "center",
+  "levels": 54,
+  "color_mode": "atari",
+  "transparency": 255,
+  "alpha_threshold": 8,
+  "tv_safe": true,
+  "tv_desat": 0.25,
+  "tv_blur": 1,
+  "frame_names": [
+    "math_quiz_icon",
+    "science_quiz_icon",
+    "coding_quiz_icon",
+    "micro_quiz_icon"
+  ]
+}

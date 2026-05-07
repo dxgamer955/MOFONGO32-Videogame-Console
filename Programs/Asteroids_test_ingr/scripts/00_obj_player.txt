@@ -1,0 +1,29 @@
+// MASA_ROTATE: 4.5
+// MASA_THRUST: 0.1
+// MASA_WRAP: 0,319,0,199
+// MASA_HUD_SET: 3, 0, 0
+// MASA_HUD: 4, 4, white, left, none, 0, 0, "Lives:{LIFE}                Score:{SCORE}"
+// MASA_ON_SIGNAL_SHOW_TEXT: 7, 0, 133, 88, white, "GAME OVER"
+// MASA_ON_SIGNAL_SHOW_TEXT: 7, 1, 118, 102, white, "SCORE: {SCORE}"
+// MASA_ON_SIGNAL_SHOW_TEXT: 7, 2, 82, 118, white, "PRESS ANY BUTTON "
+// MASA_ON_SIGNAL_SHOW_TEXT: 7, 3, 184, 118, white, "TO RESTART"
+
+// Disparo
+// MASA_PRESSED_BTN_A: 0
+// MASA_ON_SIGNAL_SPAWN_BULLET: 0, obj_bullet, 4.0, 12
+// MASA_ON_SIGNAL_BEEP: 0, C6, 80
+
+// Daño del player (pierde vida y respawn al centro)
+// MASA_HITBOX: 6, 6
+// MASA_COLLIDE: 3, obj_big_rock
+// MASA_COLLIDE: 3, obj_middle_rock
+// MASA_COLLIDE: 3, obj_small_rock
+// MASA_ON_SIGNAL_HUD_ADD: 3, -1, 0, 0
+// MASA_ON_SIGNAL_SPAWN: 3, obj_explotion, self_x, self_y, auto
+// MASA_ON_SIGNAL_SPAWN: 3, self, 160, 100, auto
+// MASA_ON_SIGNAL_STOP: 3, self
+
+// Humo atras
+// MASA_START_ALARM: 1, 120, repeat
+// IF_MASA_ALARM_RINGS: 1, 4
+// MASA_ON_SIGNAL_SPAWN_BULLET: 4, obj_smoke, 0.0, -10

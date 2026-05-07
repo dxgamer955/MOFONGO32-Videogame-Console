@@ -1,0 +1,19 @@
+{
+  "type": "sprites_project_v1",
+  "pngs": [
+    "C:\\Users\\yabiv\\Documents\\AudioVideoExample\\Programs\\Mofongo_Microcontrollers_Quiz_ingr\\assets\\sprites\\micro_quiz_icon.png"
+  ],
+  "out": "",
+  "name": "micro_quiz_sprites",
+  "origin": "center",
+  "levels": 54,
+  "color_mode": "atari",
+  "transparency": 255,
+  "alpha_threshold": 8,
+  "tv_safe": true,
+  "tv_desat": 0.25,
+  "tv_blur": 1,
+  "frame_names": [
+    "micro_quiz_icon"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "type": "sprites_project_v1",
+  "pngs": [
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku1.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku2.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku3.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku4.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku5.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku6.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku7.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\miku8.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\test_sprite_4.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\test_sprite_3.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_ball.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\B_Miku1.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\B_Miku2.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\B_Miku3.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\B_Miku4.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\B_Miku5.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\B_Miku6.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\alucard_1.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\alucard_2.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\alucard_3.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\alucard_4.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_ship.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_big_as.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_mid_as.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_small_as.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_a.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_b.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_c.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_bull.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_got_power_0.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_got_power_1.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_got_power_2.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_got_power_3.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_explotion_ded_0.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_explotion_ded_1.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_explotion_ded_2.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_explotion_ded_3.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_explotion_ded_4.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_smoke_0.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_smoke_1.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_smoke_2.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_smoke_3.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\Asteroids_aff7b34597\\assets\\sprites\\spr_smoke_4.png"
+  ],
+  "out": "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\gfx\\my_sprites.h",
+  "name": "my_sprites",
+  "origin": "center",
+  "origin_x": null,
+  "origin_y": null,
+  "levels": 54,
+  "color_mode": "atari",
+  "transparency": 255,
+  "alpha_threshold": 8,
+  "tv_safe": true,
+  "tv_desat": 0.25,
+  "tv_blur": 1,
+  "frame_names": [
+    "p_dance_1",
+    "p_dance_2",
+    "p_dance_3",
+    "p_dance_4",
+    "p_dance_5",
+    "p_dance_6",
+    "p_dance_7",
+    "p_dance_8",
+    "p_kirby",
+    "p_popeyes",
+    "p_ggball",
+    "p_B_Miku_1",
+    "p_B_Miku_2",
+    "p_B_Miku_3",
+    "p_B_Miku_4",
+    "p_B_Miku_5",
+    "p_B_Miku_6",
+    "p_alu_1",
+    "p_alu_2",
+    "p_alu_3",
+    "p_alu_4",
+    "ship",
+    "brock",
+    "mrock",
+    "srock",
+    "a",
+    "b",
+    "c",
+    "bull",
+    "ob1",
+    "ob2",
+    "ob3",
+    "ob4",
+    "sp1",
+    "sp2",
+    "sp3",
+    "sp4",
+    "sp5",
+    "ef1",
+    "ef2",
+    "ef3",
+    "ef4",
+    "ef5"
+  ],
+  "animations": {
+    "p_dance": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "p_B_Miku": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "p_alu": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "ob": [
+      29,
+      30,
+      31,
+      32
+    ],
+    "sp": [
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "ef": [
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "p_kirby": [
+      8
+    ],
+    "p_popeyes": [
+      9
+    ],
+    "p_ggball": [
+      10
+    ],
+    "ship": [
+      21
+    ],
+    "brock": [
+      22
+    ],
+    "mrock": [
+      23
+    ],
+    "srock": [
+      24
+    ],
+    "a": [
+      25
+    ],
+    "b": [
+      26
+    ],
+    "c": [
+      27
+    ],
+    "bull": [
+      28
+    ]
+  }
+}

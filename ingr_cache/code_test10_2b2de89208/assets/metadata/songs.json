@@ -1,0 +1,22 @@
+{
+  "type": "songs_atlas_v1",
+  "settings": {
+    "channel": 0,
+    "row_ms": 90,
+    "hold_empty": false,
+    "bpm": 166.0,
+    "rows_per_beat": 4.0
+  },
+  "songs": [
+    {
+      "name": "manny",
+      "source": "MANNY.txt",
+      "input": "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\code_test10_c6853213dc\\assets\\sounds\\MANNY.txt"
+    },
+    {
+      "name": "stars",
+      "source": "stars.txt",
+      "input": "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\code_test10_c6853213dc\\assets\\sounds\\stars.txt"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+// MASA_PRESSED_BTN_A: 0
+// MASA_ON_SIGNAL_SPAWN: 0, obj_bullet, 150, 100, 0
+// MASA_ON_SIGNAL_SPAWN: 0, obj_bullet, 170, 100, 0

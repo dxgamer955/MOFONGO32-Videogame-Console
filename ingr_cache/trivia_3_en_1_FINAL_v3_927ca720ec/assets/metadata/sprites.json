@@ -1,0 +1,47 @@
+{
+  "type": "sprites_project_v1",
+  "pngs": [
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_FINAL_v3_ba7cf3bc48\\assets\\sprites\\mofongo_logo.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_FINAL_v3_ba7cf3bc48\\assets\\sprites\\albert.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_FINAL_v3_ba7cf3bc48\\assets\\sprites\\alien.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_FINAL_v3_ba7cf3bc48\\assets\\sprites\\idle_frame_1__resize_-removebg-preview.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_FINAL_v3_ba7cf3bc48\\assets\\sprites\\idle_frame_2__resize_-removebg-preview.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_FINAL_v3_ba7cf3bc48\\assets\\sprites\\idle_frame_3__resize_-removebg-preview.png"
+  ],
+  "out": "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\gfx\\my_sprites.h",
+  "name": "my_sprites",
+  "origin": "center",
+  "origin_x": null,
+  "origin_y": null,
+  "levels": 54,
+  "color_mode": "atari",
+  "transparency": 255,
+  "alpha_threshold": 8,
+  "tv_safe": true,
+  "tv_desat": 0.25,
+  "tv_blur": 1,
+  "frame_names": [
+    "s_mofongo",
+    "s_einstein",
+    "s_alien",
+    "s_guy1",
+    "s_guy2",
+    "s_guy3"
+  ],
+  "animations": {
+    "s_guy": [
+      3,
+      4,
+      5
+    ],
+    "s_mofongo": [
+      0
+    ],
+    "s_einstein": [
+      1
+    ],
+    "s_alien": [
+      2
+    ]
+  }
+}

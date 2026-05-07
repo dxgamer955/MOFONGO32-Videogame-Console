@@ -1,0 +1,30 @@
+{
+  "name": "rm_test",
+  "width": 320,
+  "height": 200,
+  "background_index": 1,
+  "objects": [
+    {
+      "id": 1,
+      "name": "obj_1",
+      "frame": 0,
+      "x": 70,
+      "y": 134,
+      "mode": "normal",
+      "angle": 0.0,
+      "scale": 1.0,
+      "visible": true
+    },
+    {
+      "id": 2,
+      "name": "obj_2",
+      "frame": 8,
+      "x": 231,
+      "y": 126,
+      "mode": "normal",
+      "angle": 0.0,
+      "scale": 1.0,
+      "visible": true
+    }
+  ]
+}

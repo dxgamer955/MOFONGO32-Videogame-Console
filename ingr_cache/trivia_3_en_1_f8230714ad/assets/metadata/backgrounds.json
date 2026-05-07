@@ -1,0 +1,19 @@
+{
+  "type": "backgrounds_project_v1",
+  "pngs": [
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_36217799d9\\assets\\backgrounds\\background_space-resize.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_36217799d9\\assets\\backgrounds\\gameshow_background_2.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_36217799d9\\assets\\backgrounds\\math_bg.png",
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\ingr_cache\\trivia_3_en_1_36217799d9\\assets\\backgrounds\\plaataano_bg.png"
+  ],
+  "out": "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\gfx\\backgrounds.h",
+  "name": "backgrounds",
+  "levels": 54,
+  "color_mode": "atari",
+  "tv_safe": true,
+  "tv_desat": 0.25,
+  "tv_blur": 1,
+  "width": 320,
+  "height": 200,
+  "transparent_index": 104
+}

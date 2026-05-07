@@ -1,0 +1,31 @@
+MASA format v1
+
+Header (40 bytes, little endian)
+- magic (u32) = 0x4D415341 ("MASA")
+- version (u16) = 1
+- flags (u16)
+- script_offset (u32)
+- script_size (u32)
+- sprites_offset (u32)
+- sprites_size (u32)
+- tilemap_offset (u32)
+- tilemap_size (u32)
+- entry_point (u32)
+- reserved (u32)
+
+Script bytecode (little endian params)
+- OP_DRAW_SPRITE (1): i16 x, i16 y, u8 sprite_id
+- OP_DRAW_SPRITE_XFORM (5): i16 x, i16 y, u8 sprite_id, i16 angle10, u16 scale1000
+- OP_SET_OBJECT (6): u8 obj_id, i16 x, i16 y, u8 sprite_id
+- OP_SET_VEL (7): u8 obj_id, i16 vx10, i16 vy10 (tenths px per frame)
+- OP_SET_BOUNDS (8): i16 minx, i16 maxx, i16 miny, i16 maxy
+- OP_SET_ROT_SPEED (9): u8 obj_id, i16 angle10_per_frame
+- OP_SET_SCALE_PULSE (10): u8 obj_id, u16 base1000, u16 amp1000, u16 speed10 (deg per frame)
+- OP_MOVE_OBJECT (2): u8 obj_id, i16 x, i16 y
+- OP_PLAY_SOUND (3): u8 sound_id
+- OP_WAIT (4): u16 ms
+- OP_END (255)
+
+Notes
+- Sprites and tilemap sections are optional in v1 (size can be 0).
+- The runtime in this repo only uses the script section for now.

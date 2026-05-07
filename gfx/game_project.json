@@ -1,0 +1,211 @@
+{
+  "name": "game_project",
+  "background_index": 0,
+  "objects": [
+    {
+      "name": "obj_popeyes",
+      "x": 157,
+      "y": 114,
+      "draw_mode": "normal",
+      "start_state": "idle",
+      "idle_frames": "9",
+      "walk_frames": "",
+      "run_frames": "",
+      "jump_frames": "",
+      "idle_fps": 8,
+      "walk_fps": 8,
+      "run_fps": 10,
+      "jump_fps": 8,
+      "angle": 0.0,
+      "scale": 1.0,
+      "script_update": "obj.vx = 1.2f;\nobj.vy = 0.9f;\n\nobj.inst.x += (int)obj.vx;\nobj.inst.y += (int)obj.vy;\n\nif(obj.inst.x < 20 || obj.inst.x > 300) obj.vx = -obj.vx;\nif(obj.inst.y < 20 || obj.inst.y > 180) obj.vy = -obj.vy;\n\nobj.drawMode = 1;      // rotated\nobj.angle += 4.0f;\nif(obj.angle >= 360.0f) obj.angle -= 360.0f;\n\nset_state(obj, 1);     // walk"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "rm_test",
+      "width": 320,
+      "height": 200,
+      "background_index": 1,
+      "song": "",
+      "objects": [
+        {
+          "name": "obj_miku",
+          "x": 71,
+          "y": 136,
+          "draw_mode": "normal",
+          "start_state": "idle",
+          "idle_frames": "0,1,2,3,4,5,6,7",
+          "walk_frames": "",
+          "run_frames": "",
+          "jump_frames": "",
+          "idle_fps": 8,
+          "walk_fps": 8,
+          "run_fps": 10,
+          "jump_fps": 8,
+          "angle": 0.0,
+          "scale": 1.0,
+          "script_update": ""
+        },
+        {
+          "name": "obj_kirby",
+          "x": 236,
+          "y": 132,
+          "draw_mode": "normal",
+          "start_state": "idle",
+          "idle_frames": "8",
+          "walk_frames": "",
+          "run_frames": "",
+          "jump_frames": "",
+          "idle_fps": 8,
+          "walk_fps": 8,
+          "run_fps": 10,
+          "jump_fps": 8,
+          "angle": 0.0,
+          "scale": 1.0,
+          "script_update": ""
+        },
+        {
+          "name": "obj_gg",
+          "x": 39,
+          "y": 32,
+          "draw_mode": "normal",
+          "start_state": "idle",
+          "idle_frames": "10",
+          "walk_frames": "",
+          "run_frames": "",
+          "jump_frames": "",
+          "idle_fps": 8,
+          "walk_fps": 8,
+          "run_fps": 10,
+          "jump_fps": 8,
+          "angle": 0.0,
+          "scale": 1.0,
+          "script_update": ""
+        }
+      ]
+    },
+    {
+      "name": "rm_morro",
+      "width": 320,
+      "height": 200,
+      "background_index": 0,
+      "song": "",
+      "objects": [
+        {
+          "name": "obj_popeyes",
+          "x": 157,
+          "y": 114,
+          "draw_mode": "normal",
+          "start_state": "idle",
+          "idle_frames": "9",
+          "walk_frames": "",
+          "run_frames": "",
+          "jump_frames": "",
+          "idle_fps": 8,
+          "walk_fps": 8,
+          "run_fps": 10,
+          "jump_fps": 8,
+          "angle": 0.0,
+          "scale": 1.0,
+          "script_update": "obj.vx = 1.2f;\nobj.vy = 0.9f;\n\nobj.inst.x += (int)obj.vx;\nobj.inst.y += (int)obj.vy;\n\nif(obj.inst.x < 20 || obj.inst.x > 300) obj.vx = -obj.vx;\nif(obj.inst.y < 20 || obj.inst.y > 180) obj.vy = -obj.vy;\n\nobj.drawMode = 1;      // rotated\nobj.angle += 4.0f;\nif(obj.angle >= 360.0f) obj.angle -= 360.0f;\n\nset_state(obj, 1);     // walk"
+        }
+      ]
+    },
+    {
+      "name": "rm_just_miku",
+      "width": 320,
+      "height": 200,
+      "background_index": 1,
+      "song": "",
+      "objects": [
+        {
+          "name": "obj_mikuRot",
+          "x": 247,
+          "y": 120,
+          "draw_mode": "normal",
+          "start_state": "idle",
+          "idle_frames": "0,1,2,3,4,5,6,7",
+          "walk_frames": "",
+          "run_frames": "",
+          "jump_frames": "",
+          "idle_fps": 8,
+          "walk_fps": 8,
+          "run_fps": 10,
+          "jump_fps": 8,
+          "angle": 0.0,
+          "scale": 1.0,
+          "script_update": "obj.drawMode = 2;\nobj.scale = 1.0f + 0.6f * sinf((float)nowMs * 0.003f);"
+        },
+        {
+          "name": "obj_aluc",
+          "x": 105,
+          "y": 25,
+          "draw_mode": "normal",
+          "start_state": "idle",
+          "idle_frames": "17,18,19,20",
+          "walk_frames": "",
+          "run_frames": "",
+          "jump_frames": "",
+          "idle_fps": 4,
+          "walk_fps": 8,
+          "run_fps": 10,
+          "jump_fps": 8,
+          "angle": 0.0,
+          "scale": 1.0,
+          "script_update": ""
+        }
+      ]
+    },
+    {
+      "name": "rm_big_miku",
+      "width": 320,
+      "height": 200,
+      "background_index": 1,
+      "song": "",
+      "objects": [
+        {
+          "name": "obj_b_miku",
+          "x": 140,
+          "y": 119,
+          "draw_mode": "normal",
+          "start_state": "idle",
+          "idle_frames": "11,12,13,14,15,16",
+          "walk_frames": "",
+          "run_frames": "",
+          "jump_frames": "",
+          "idle_fps": 8,
+          "walk_fps": 8,
+          "run_fps": 10,
+          "jump_fps": 8,
+          "angle": 0.0,
+          "scale": 1.0,
+          "script_update": ""
+        }
+      ]
+    }
+  ],
+  "active_room": 1,
+  "songs_meta": {
+    "type": "songs_atlas_v1",
+    "settings": {
+      "channel": 0,
+      "row_ms": 90,
+      "hold_empty": false,
+      "bpm": 166.0,
+      "rows_per_beat": 4.0
+    },
+    "songs": [
+      {
+        "name": "manny",
+        "source": "MANNY.txt",
+        "input": "../tools/MANNY.txt"
+      },
+      {
+        "name": "stars",
+        "source": "stars.txt",
+        "input": "../tools/stars.txt"
+      }
+    ]
+  }
+}

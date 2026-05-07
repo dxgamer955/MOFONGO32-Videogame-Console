@@ -1,0 +1,23 @@
+{
+  "type": "sprites_project_v1",
+  "pngs": [
+    "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\tools\\test_sprite_1.png"
+  ],
+  "out": "C:\\Users\\dxgam\\OneDrive\\Desktop\\MICRO_FINAL_PROJ\\PAL_COOMPOS_AUDIO\\AudioVideoExample\\gfx\\_tmp_color_sprite.h",
+  "name": "tmp_color",
+  "origin": "center",
+  "origin_x": null,
+  "origin_y": null,
+  "levels": 54,
+  "color_mode": "atari",
+  "transparency": 255,
+  "alpha_threshold": 8,
+  "frame_names": [
+    "test_sprite_1"
+  ],
+  "animations": {
+    "test_sprite": [
+      0
+    ]
+  }
+}
