@@ -393,6 +393,19 @@ MASA loaded
 
 ```
 ----------
+# Hardware
+
+| Front View | Rear View |
+|---|---|
+| ![](readme_assets/console_img.jpeg) | ![](readme_assets/closeup_img.jpeg) |
+----------
+
+## Hardware Diagram
+
+![Diagram](readme_assets/diagram.png)
+
+----------
+
 # Hardware Limitations
 
 MOFONGO32 is designed around real ESP32 hardware constraints.  
@@ -542,15 +555,30 @@ However, the project will continue prioritizing:
 
 ----------
 
+
 # Gallery
 
-> Add screenshots, gameplay GIFs, and hardware photos here.
+## Asteroids Demo
 
-```text
-/docs/images/
-/docs/gifs/
+![Asteroids](readme_assets/gifs/asteroids.gif)
 
-```
+---
+
+## Dual ESP32 Quiz Demo
+
+![Quiz](readme_assets/gifs/dualesp32.gif)
+
+---
+
+## Guess Who Demo
+
+![GuessWho](readme_assets/gifs/guesswho.gif)
+
+---
+
+## Game Loader Preview
+
+![Loader](readme_assets/gifs/loader.gif)
 
 ----------
 
