@@ -395,7 +395,7 @@ MASA loaded
 ----------
 # Hardware
 
-| Front View | Rear View |
+| Photo 1 | Photo 2 |
 |---|---|
 | ![](readme_assets/console_img.jpeg) | ![](readme_assets/closeup_img.jpeg) |
 ----------
