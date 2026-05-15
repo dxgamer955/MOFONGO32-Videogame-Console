@@ -560,25 +560,25 @@ However, the project will continue prioritizing:
 
 ## Asteroids Demo
 
-![Asteroids](readme_assets/gifs/asteroids.gif)
+![Asteroids](readme_assets/gifs/asteroids.GIF)
 
 ---
 
 ## Dual ESP32 Quiz Demo
 
-![Quiz](readme_assets/gifs/dualesp32.gif)
+![Quiz](readme_assets/gifs/dualesp32.GIF)
 
 ---
 
 ## Guess Who Demo
 
-![GuessWho](readme_assets/gifs/guesswho.gif)
+![GuessWho](readme_assets/gifs/guesswho.GIF)
 
 ---
 
 ## Game Loader Preview
 
-![Loader](readme_assets/gifs/loader.gif)
+![Loader](readme_assets/gifs/loader.GIF)
 
 ----------
 
