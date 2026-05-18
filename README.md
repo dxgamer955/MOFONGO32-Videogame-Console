@@ -605,15 +605,7 @@ Feel free to:
 
 # License
 
-Add your preferred license here.
-
-Recommended:
-
--   MIT
-    
--   GPLv3
-    
--   Apache 2.0
+MIT License
     
 
 ----------
